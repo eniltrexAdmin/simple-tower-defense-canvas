@@ -68,3 +68,26 @@ for package json
 So the tutorial is finished, now I need to add my game. Unfortunately that guy didn't add mroe stuff
 so I go back to the original place...
 
+## Merging the project
+
+I am bringin the old project here. There's a conflic of interests:
+
+I am using the skeleton assuming it's canvas, but in reality, the structure
+shoudl be more DDDy where canvas is part of the infra, as well as could be React,
+and I could start the app either with react or canvas.
+
+Either case, I need to think carefull what is shared among regular javacsript and react
+so this can go outside, and would belong to reac etc.
+
+All of this is like a lot of effor, so I will continue with just the canvas option,
+placing unconmfortably all the files under Infrastructure/canvas....
+
+Maybe in the future I'll be able to merge that. Maube I'll relaize it doens't make sense.
+Who knows.
+
+### merging problems
+
+#### tsx and ts
+
+old is all tsx... if its pure typesript, should be ts only...
+and tsx only if it contains jsx
