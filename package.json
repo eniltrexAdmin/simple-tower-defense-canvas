@@ -1,0 +1,17 @@
+{
+  "name": "simple-tower-defense-canvas",
+  "version": "1.0.0",
+  "description": "a game to survive",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "typescript",
+    "canvas",
+    "tower",
+    "defense"
+  ],
+  "author": "FrancescJR",
+  "license": "ISC"
+}
