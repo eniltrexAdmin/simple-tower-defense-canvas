@@ -63,3 +63,8 @@ new webpack.DefinePlugin({
 "dev": "webpack-dev-server --mode=development --open",
 for package json
 
+### Up until here working
+
+So the tutorial is finished, now I need to add my game. Unfortunately that guy didn't add mroe stuff
+so I go back to the original place...
+
